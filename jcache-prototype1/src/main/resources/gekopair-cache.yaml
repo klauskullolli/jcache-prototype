@@ -1,0 +1,13 @@
+cache:
+  name: "GekoPairCache"
+  key: java.lang.String
+  value: java.lang.String
+  ttl:
+    unit: "minutes"
+    time: 20
+  readThrough: False
+  writeThrough: False
+  managementEnable: True
+  statisticEnable: True
+  loaderFactory:
+  writerFactory:

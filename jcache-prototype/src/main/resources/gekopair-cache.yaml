@@ -1,0 +1,32 @@
+cache:
+  - name: "WebCache"
+    key: java.lang.Object
+    value: java.lang.Object
+    ttl:
+      unit: "seconds"
+      time: 5
+    tti:
+      unit: "minutes"
+      time: 10
+    readThrough: False
+    writeThrough: False
+    managementEnable: True
+    statisticEnable: True
+    loaderFactory:
+    writerFactory:
+
+  - name: "WebCache1"
+    key: java.lang.Object
+    value: java.lang.Object
+    ttl:
+      unit: "seconds"
+      time: 6
+    tti:
+      unit: "minutes"
+      time: 12
+    readThrough: False
+    writeThrough: False
+    managementEnable: True
+    statisticEnable: True
+    loaderFactory:
+    writerFactory:
